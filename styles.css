@@ -5,12 +5,15 @@
 }
 
 .grid-item {
-  width: 80px;      /* box width */
-  height: 80px;     /* box height */
-  display: flex;
+  width: 200px;      /* box width */
+  height: 150px;     /* box height */
+		  display: flex;
+		flex-wrap:wrap;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
   background-color: lightgray;
+	border-radius: 5px;
+	font-size:40px;
 }
 
