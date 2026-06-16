@@ -1,18 +1,19 @@
 .grid-container {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 10px;
+
+  justify-items: center;
 }
 
 .grid-item {
-  width: 200px;      /* box width */
-  height: 150px;     /* box height */
-		  display: flex;
-		flex-wrap:wrap;
+  width: 200px;
+  height: 150px;
+  background-color: lightgray;
+  border-radius: 5px;
+  font-size: 40px;
+
+  display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
-  background-color: lightgray;
-	border-radius: 5px;
-	font-size:40px;
 }
-
